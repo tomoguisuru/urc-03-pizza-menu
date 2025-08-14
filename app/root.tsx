@@ -32,7 +32,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="bg-white flex h-screen justify-center align-middle">
         {children}
         <ScrollRestoration />
         <Scripts />

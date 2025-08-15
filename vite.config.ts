@@ -9,5 +9,5 @@ export default defineConfig({
     reactRouter(), 
     tsconfigPaths(),
   ],
-  base: 'urc-03-pizza-menu',
+  base: '/urc-03-pizza-menu/',
 });
